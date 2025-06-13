@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1747887137101,"sparkVersion":"3.5.5","uid":"VectorAssembler_1e7d0b59a4c1","paramMap":{"inputCols":["area_index","crime_category_index","weather_condition_index","day_of_week_index","no_of_cctv"],"outputCol":"features"},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_1e7d0b59a4c1__output"}}

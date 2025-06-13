@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1747887135984,"sparkVersion":"3.5.5","uid":"StringIndexer_7531e0e31421","paramMap":{"handleInvalid":"keep","inputCol":"crime_category","outputCol":"crime_category_index"},"defaultParamMap":{"handleInvalid":"error","stringOrderType":"frequencyDesc","outputCol":"StringIndexer_7531e0e31421__output"}}
