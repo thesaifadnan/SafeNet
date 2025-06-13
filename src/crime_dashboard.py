@@ -12,7 +12,8 @@ from sklearn.ensemble import RandomForestRegressor
 # ── 1) LOAD DATA ────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/crime_data_dehradun.csv")  # adjust path as needed
+    file_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'crime_data_dehradun.csv')
+    return pd.read_csv(file_path)
 
 df = load_data()
 
